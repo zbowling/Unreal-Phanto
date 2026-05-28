@@ -334,3 +334,9 @@ All functions are in [PhantoBlueprintFunctionLibrary.h](./Source/Phanto/Public/P
 ![Scene Visualization](./Media/SceneVisualization.gif 'Scene Visualization')
 
 The [LobbyScene](./Content/Phanto/Maps/LobbyScene.umap) displays the mesh and furniture bounding boxes if available.
+
+## AI coding agents
+
+This repo is wired up for AI coding agents — `AGENTS.md`, `.vscode/extensions.json`, `.mcp.json`, `.cursor/rules/`, and a few client-specific dotfiles surface the **Meta Horizon** VS Code/Cursor extension, the `hzdb` MCP server, and the Meta Quest skill set automatically.
+
+Full toolchain, including Unreal skills and per-client install instructions: [github.com/meta-quest/agentic-tools](https://github.com/meta-quest/agentic-tools).
